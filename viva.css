@@ -1,0 +1,28 @@
+img[src$=".gif"], img[src$=".png"] {
+	image-rendering: -moz-crisp-edges;         /* Firefox */
+	  image-rendering: optimizeSpeed; /* Legal fallback                 */
+  image-rendering: -moz-crisp-edges; /* Firefox                        */
+  image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+  image-rendering: pixelated; /* CSS3                           */
+  -ms-interpolation-mode: nearest-neighbor; /* IE8+  
+	-ms-interpolation-mode: nearest-neighbor;  /* IE */
+ }	
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+* {
+  image-rendering: optimizeSpeed; /* Legal fallback                 */
+  image-rendering: -moz-crisp-edges; /* Firefox                        */
+  image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+  image-rendering: pixelated; /* CSS3                           */
+  -ms-interpolation-mode: nearest-neighbor; /* IE8+                           */
+}
+body{
+		   background-color: #0a0a0b;
+		   
+}
